@@ -11,3 +11,6 @@ puts formatter % {
     third: "But it didn't sing.",
     fourth: "So I said goodnight."
 }
+
+water = "%{flat} %{fizzy}"
+puts water % {flat: "dasani", fizzy: "la croix"}
